@@ -523,14 +523,15 @@ nav ul li a:hover {
 }
 
 .inside-workshops-card {
-  width: 22vw;
+  width: 30vw;
   border: 1px solid #ccc;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .inside-workshops-card img {
-  width: 22vw;
+  width: 30vw;
   margin-bottom: 20px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -572,6 +573,14 @@ nav ul li a:hover {
   width: 140px;
 }
 
+.a-banner {
+  text-align: center;
+}
+
+.banner {
+  width: 80%;
+}
+
 .partners {
   width: 100vw;
   height: auto;
@@ -597,6 +606,7 @@ nav ul li a:hover {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .inside-partners-logo img {
