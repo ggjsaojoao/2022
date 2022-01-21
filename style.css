@@ -46,6 +46,7 @@ nav {
   height: inherit;
   margin: 0 auto;
   width: 80vw;
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -100,6 +101,7 @@ nav ul li a:hover {
 .inside-home {
   margin: 0 auto;
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -159,12 +161,19 @@ nav ul li a:hover {
 
 .inside-video {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.inside-video iframe {
+  border: 1px solid #ccc;
 }
 
 .about {
@@ -175,6 +184,7 @@ nav ul li a:hover {
 
 .inside-about {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -221,6 +231,7 @@ nav ul li a:hover {
 
 .inside-subscription {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
 }
@@ -273,6 +284,7 @@ nav ul li a:hover {
 
 .inside-info {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -308,6 +320,7 @@ nav ul li a:hover {
 
 .inside-timeline {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -345,6 +358,7 @@ nav ul li a:hover {
 
 .inside-rules {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   text-align: center;
@@ -382,6 +396,7 @@ nav ul li a:hover {
 
 .inside-tools {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -506,6 +521,7 @@ nav ul li a:hover {
 
 .inside-workshops {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -589,6 +605,7 @@ nav ul li a:hover {
 
 .inside-partners {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -622,6 +639,7 @@ footer {
 
 .inside-footer {
   width: 80vw;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
